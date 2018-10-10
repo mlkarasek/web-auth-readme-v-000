@@ -1315,3 +1315,9 @@ Processing by SearchesController#foursquare as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"qZKi1+RQlw3Q9jbC9IKJVGBYpZh3kvjOQtGFkkbHf2H0qJhk9oBxmQrg/c5J8r9+ZBckyHG5QT4rtYcdLcpaOg==", "zipcode"=>"10003", "commit"=>"Search!"}
   Rendered searches/search.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 164ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 75.180.45.108 at 2018-10-10 10:33:29 +0000
+Cannot render console from 75.180.45.108! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qZKi1+RQlw3Q9jbC9IKJVGBYpZh3kvjOQtGFkkbHf2H0qJhk9oBxmQrg/c5J8r9+ZBckyHG5QT4rtYcdLcpaOg==", "zipcode"=>"10003", "commit"=>"Search!"}
