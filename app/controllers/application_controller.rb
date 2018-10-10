@@ -5,8 +5,7 @@ class ApplicationController < ActionController::Base
 
 end
 
-  private 
+  private
   def logged_in?
     !!session[:token]
-end 
-
+end
